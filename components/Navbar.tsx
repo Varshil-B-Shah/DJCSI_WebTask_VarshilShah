@@ -16,7 +16,7 @@ export const Navbar = () => {
           </ul>
         </div>
         <div>
-          <button className="py-2 md:block hidden lg:mt-1 md:mb-3 lg:mb-0 px-4 rounded-3xl bg-[#28ac74] hover:bg-green-600 duration-300 text-white md:text-sm">
+          <button className="py-2 md:block hidden lg:mt-1 md:mb-3 lg:mb-0 px-6 rounded-3xl bg-[#28ac74] hover:bg-green-600 duration-300 text-white md:text-sm">
             Login
           </button>
         </div>
