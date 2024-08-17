@@ -8,11 +8,11 @@ export const Navbar = () => {
         <div className="lg:text-3xl hidden md:block md:text-xl text-2xl font-bold md:w-auto w-[600px]">LOREM IPSUM</div>
         <div className="lg:pt-2 lg:pb-0 md:flex hidden md:pb-4 lg:mr-14 text-center justify-around items-center">
           <ul className="flex lg:gap-12 md:gap-5 lg:text-base md:text-sm lg:items-center">
-            <li>Booking</li>
-            <li>Facilities</li>
-            <li>About Us</li>   
-            <li>Location</li>
-            <li>Contact</li>
+            <li className=" hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">Booking</li>
+            <li className=" hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">Facilities</li>
+            <li className=" hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">About Us</li>   
+            <li className=" hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">Location</li>
+            <li className=" hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">Contact</li>
           </ul>
         </div>
         <div>

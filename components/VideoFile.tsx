@@ -3,8 +3,8 @@ import { FaPlay } from "react-icons/fa";
 const VideoFile = () => {
   return (
     <div className="my-4 lg:h-[656px] md:h-auto h-auto lg:mx-16 md:mx-10 bg-[#f8fcfc] rounded-t-[4rem]">
-      <div className="lg:grid md:flex flex lg:grid-flow-col lg:grid-cols-1">
-        <div className="flex flex-col lg:pt-20 pt-10 md:pt-16 lg:pl-24 pl-7 md:pl-9 lg:gap-8 md:gap-6 gap-2">
+      <div className="lg:grid md:flex md:gap-0 gap-2 flex lg:grid-flow-col lg:grid-cols-1">
+        <div className="flex flex-col lg:pt-20 pt-10 md:pt-16 lg:pl-24 pl-6 md:pl-9 lg:gap-8 md:gap-6 gap-2">
           <h1 className="lg:text-7xl md:text-3xl text-base lg:leading-[85px] font-semibold">
             Find your perfect place to stay
           </h1>
