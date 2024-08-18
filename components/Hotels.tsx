@@ -39,25 +39,30 @@ const Hotels = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const elements = document.querySelectorAll<HTMLElement>(".pop-in");
-      elements.forEach((element) => {
-        const rect = element.getBoundingClientRect();
-        if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
-          element.classList.add("visible");
-        }
-      });
+        const elements = document.querySelectorAll<HTMLElement>('.pop-in');
+        elements.forEach((element) => {
+            const rect = element.getBoundingClientRect();
+            if (rect.top < window.innerHeight && rect.bottom > 0) {
+                element.classList.add('visible');
+            }
+        });
     };
 
-    document.addEventListener("scroll", handleScroll);
+    // Initial check in case elements are already in view on load
+    handleScroll();
 
+    // Add the scroll event listener
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener on component unmount
     return () => {
-      document.removeEventListener("scroll", handleScroll);
+        window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+}, []);
 
   return (
     <div className="lg:mt-24 md:mt-8 mt-6 mb-4 w-full px-4 md:px-8 lg:px-16">
-      <div className="flex">
+      <div className="flex pop-in">
         <div className="items-start justify-start flex-1">
           <div className="flex flex-col gap-[0.5rem] md:gap-[1rem] lg:gap-[1.25rem]">
             <h1 className="font-semibold text-lg md:text-2xl lg:text-4xl">Our most popular Hotels</h1>
@@ -77,7 +82,7 @@ const Hotels = () => {
       <div className="mt-5 pop-in">
         <div className="flex md:flex-row flex-col gap-5 md:gap-4 lg:gap-7">
           {hotels.map((hotel) => (
-            <div className="flex cursor-pointer overflow-hidden hover:scale-105 transition duration-300 flex-col rounded-xl bg-[#f3efef] h-auto md:w-[33%] lg:w-[33%] gap-2 md:gap-1 pb-6">
+            <div key={hotel.id} className="flex cursor-pointer overflow-hidden hover:scale-105 transition duration-300 flex-col rounded-xl bg-[#f3efef] h-auto md:w-[33%] lg:w-[33%] gap-2 md:gap-1 pb-6">
               <img src={hotel.img} alt="Task 2" className="object-contain" />
               <div className="px-3">
                 <p className="text-xs text-[#24ab6f] mt-5">{hotel.location}</p>
