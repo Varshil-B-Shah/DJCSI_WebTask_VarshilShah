@@ -48,13 +48,10 @@ const Hotels = () => {
         });
     };
 
-    // Initial check in case elements are already in view on load
     handleScroll();
 
-    // Add the scroll event listener
     window.addEventListener('scroll', handleScroll);
 
-    // Clean up the event listener on component unmount
     return () => {
         window.removeEventListener('scroll', handleScroll);
     };
@@ -72,7 +69,7 @@ const Hotels = () => {
             </p>
           </div>
         </div>
-        <div className="items-end justify-end mt-10 md:pt-5 lg:pt-16">
+        <div className="items-end justify-end mt-10 md:pt-5 lg:pt-10">
           <button className="bg-[#eaf7f1] hover:bg-[#24ab70] px-3 md:px-5 py-1 md:py-2 text-[#24ab70] hover:text-[#eaf7f1] rounded-3xl text-xs md:text-sm transition-all duration-300">
             View All
           </button>
