@@ -74,3 +74,28 @@ body {
 body {
   overflow-x:hidden;
 }
+
+.pop-in {
+  opacity: 0;
+  transform: scale(0.8);
+  transition: opacity 1s ease-out;
+}
+
+.pop-in.visible {
+  opacity: 1;
+  animation: yo-yo 1s forwards;
+}
+
+@keyframes yo-yo {
+  0% {
+      transform: scale(1);
+  }
+  20% {
+      transform: scale(1.1); /* Pop up */
+  }
+  
+  100% {
+      transform: scale(1); /* Settle back to normal */
+  }
+}
+ 
