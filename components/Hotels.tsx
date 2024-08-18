@@ -1,8 +1,6 @@
 "use client";
 
-import { ReactNode, useEffect } from "react";
-
-import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 import { FaStar } from "react-icons/fa";
 
