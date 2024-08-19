@@ -15,7 +15,7 @@ const Facilities = () => {
     <div className="lg:mt-28 mt-14 w-full">
       <div className="lg:px-16 px-3">
         <div className="flex lg:flex-row flex-col lg:gap-7">
-          <div className="flex flex-col gap-3 lg:mb-0 mb-5 lg:gap-7 lg:flex-none md:flex md:items-center lg:items-start md:justify-center">
+          <div className="flex flex-col gap-3 lg:mb-20 mb-5 lg:gap-7 lg:flex-none md:flex md:items-center lg:items-start md:justify-center">
             <h2 className="lg:text-4xl md:text-3xl text-xl font-semibold md:w-[550px] lg:w-[400px] w-[350px] lg:leading-[43px]">
               We do our best facilities provide you
             </h2>
