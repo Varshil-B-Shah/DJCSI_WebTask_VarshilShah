@@ -2,8 +2,8 @@
 
 const Map = () => {
   return (
-    <div className="w-full mt-14 md:mt-10 lg:mt-28">
-      <div className="lg:px-16 md:px-2">
+    <div className="w-full mt-14 md:mt-10 lg:mt-28 overflow-x-hidden">
+      <div className="lg:px-16 md:px-10">
         <div className="z-10 relative">
           <div className="py-8 hidden md:absolute md:w-[600px] lg:w-[1300px] md:bottom-6 lg:bottom-16 md:left-4 lg:left-10 rounded-xl bg-white px-8 md:flex-row flex-col md:flex">
             <div className="flex flex-col lg:flex-1 items-start justify-start gap-6">

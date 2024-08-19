@@ -1,4 +1,5 @@
 import Facilities from "@/components/Facilities";
+import Footer from "@/components/Footer";
 import Hotels from "@/components/Hotels";
 import Map from "@/components/Map";
 import { Navbar } from "@/components/Navbar";
@@ -12,6 +13,7 @@ export default function Home() {
       <Hotels />
       <Facilities />
       <Map />
+      <Footer />
     </div>
   );
 }
