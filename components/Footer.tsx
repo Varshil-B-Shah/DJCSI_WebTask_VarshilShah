@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="max-w-screen-xl lg:mr-8 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-0">
         <div className="flex flex-col gap-8 items-center sm:items-start md:ml-2">
           <div className="flex flex-col gap-7 md:pl-6 md:pt-14 lg:pt-16">
-            <p className="lg:text-sm md:text-xs tracking-wide text-[#6b6a6a] md:w-[200px] lg:w-[250px] text-center rem sm:text-left">
+            <p className="lg:text-sm md:text-xs tracking-wide text-[#6b6a6a] md:px-0 px-4 md:w-[200px] lg:w-[250px] text-center rem sm:text-left">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
