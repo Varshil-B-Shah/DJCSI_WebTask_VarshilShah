@@ -27,7 +27,7 @@ const Facilities = () => {
               Contact Now
             </button>
           </div>
-          <div className="w-full overflow-hidden">
+          <div className="w-full">
             <div className="lg:flex grid grid-flow-row md:grid-cols-2 flex-col gap-3 lg:gap-7">
               <div className="lg:flex grid grid-cols-2 gap-3 lg:gap-7 justify-center items-center lg:justify-between">
                 <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
