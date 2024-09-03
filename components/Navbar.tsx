@@ -5,18 +5,18 @@ export const Navbar = () => {
   return (
     <div className="w-full h-24 p-4">
       <div className="pl-2 pr-8 pb-5 pt-2 flex justify-around lg:gap-32 md:gap-12 gap-5 md:h-auto h-20">
-        <div className="lg:text-3xl hidden md:block md:text-xl text-2xl font-bold md:w-auto w-[600px]">LOREM IPSUM</div>
+        <div className="lg:text-3xl min-[1800px]:text-4xl hidden md:block md:text-xl text-2xl font-bold md:w-auto w-[600px]">LOREM IPSUM</div>
         <div className="lg:pt-2 lg:pb-0 md:flex hidden md:pb-4 lg:mr-14 text-center justify-around items-center">
           <ul className="flex lg:gap-12 md:gap-5 lg:text-base md:text-sm lg:items-center">
-            <li className=" hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">Booking</li>
-            <li className=" hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">Facilities</li>
-            <li className=" hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">About Us</li>   
-            <li className=" hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">Location</li>
-            <li className=" hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">Contact</li>
+            <li className="text-base min-[1800px]:text-lg hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">Booking</li>
+            <li className="text-base min-[1800px]:text-lg hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">Facilities</li>
+            <li className="text-base min-[1800px]:text-lg hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">About Us</li>   
+            <li className="text-base min-[1800px]:text-lg hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">Location</li>
+            <li className="text-base min-[1800px]:text-lg hover:underline hover:underline-offset-1 hover:text-gray-700 transition-all duration-300 cursor-pointer">Contact</li>
           </ul>
         </div>
         <div>
-          <button className="py-2 md:block hidden lg:mt-1 md:mb-3 lg:mb-0 px-6 rounded-3xl bg-[#28ac74] hover:bg-green-600 duration-300 text-white md:text-sm">
+          <button className="py-2 md:block hidden min-[1800px]:text-lg min-[1800px]:px-8 lg:mt-1 md:mb-3 lg:mb-0 px-6 rounded-3xl bg-[#28ac74] hover:bg-green-600 duration-300 text-white md:text-sm">
             Login
           </button>
         </div>

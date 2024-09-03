@@ -16,7 +16,7 @@ const Facilities = () => {
       <div className="lg:px-16 px-3">
         <div className="flex lg:flex-row flex-col lg:gap-7">
           <div className="flex flex-col gap-3 lg:mb-20 mb-5 lg:gap-7 lg:flex-none md:flex md:items-center lg:items-start md:justify-center">
-            <h2 className="lg:text-4xl md:text-3xl text-xl font-semibold md:w-[550px] lg:w-[400px] w-[350px] lg:leading-[43px]">
+            <h2 className="lg:text-4xl min-[1800px]:text-5xl md:text-3xl text-xl font-semibold md:w-[550px] lg:w-[400px] w-[350px] lg:leading-[43px]">
               We do our best facilities provide you
             </h2>
             <p className="lg:text-sm lg:pl-0 md:pl-4 md:text-base text-xs text-[#6b6a6a] md:w-[550px] lg:w-[330px] w-[330px] leading-[24px]">
@@ -30,25 +30,25 @@ const Facilities = () => {
           <div className="w-full">
             <div className="lg:flex grid grid-flow-row md:grid-cols-2 flex-col lg:px-0 md:px-1 gap-3 lg:gap-7">
               <div className="lg:flex grid grid-cols-2 gap-3 lg:gap-7 justify-center items-center lg:justify-between">
-                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
+                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl min-[1800px]:h-[210px] min-[1800px]:w-[250px] lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
                   <div className="text-3xl text-[#24ab70]">
                     <BsPersonWorkspace />
                   </div>
                   <p>Private Workspace</p>
                 </div>
-                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
+                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl min-[1800px]:h-[210px] min-[1800px]:w-[250px] lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
                   <div className="text-3xl text-[#24ab70]">
                     <TbParkingCircle />
                   </div>
                   <p>Parking Area</p>
                 </div>
-                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
+                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl min-[1800px]:h-[210px] min-[1800px]:w-[250px] lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
                   <div className="text-3xl text-[#24ab70]">
                     <MdOutlineFreeBreakfast />
                   </div>
                   <p>Breakfast</p>
                 </div>
-                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
+                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl min-[1800px]:h-[210px] min-[1800px]:w-[250px] lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
                   <div className="text-3xl text-[#24ab70]">
                     <IoWifiOutline />
                   </div>
@@ -56,25 +56,25 @@ const Facilities = () => {
                 </div>
               </div>
               <div className="lg:flex grid grid-cols-2 gap-3 lg:gap-7 justify-center items-center lg:justify-between">
-                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
+                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl min-[1800px]:h-[210px] min-[1800px]:w-[250px] lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
                   <div className="text-3xl text-[#24ab70]">
                     <AiOutlineThunderbolt />
                   </div>
                   <p>Free Electricity</p>
                 </div>
-                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
+                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl min-[1800px]:h-[210px] min-[1800px]:w-[250px] lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
                   <div className="text-3xl text-[#24ab70]">
                     <GrSwim />
                   </div>
                   <p>Swimming Pool</p>
                 </div>
-                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
+                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl min-[1800px]:h-[210px] min-[1800px]:w-[250px] lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
                   <div className="text-3xl text-[#24ab70]">
                     <CiDumbbell />
                   </div>
                   <p>Exercise Space</p>
                 </div>
-                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
+                <div className="border-[#f0ecec] border-2 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer rounded-xl min-[1800px]:h-[210px] min-[1800px]:w-[250px] lg:h-[190px] md:h-[190px] h-[150px] w-[170px] md:w-[180px] lg:w-[220px] gap-7 items-center justify-center  flex flex-col">
                   <div className="text-3xl text-[#24ab70]">
                     <PiDotsThreeOutlineLight />
                   </div>

@@ -5,17 +5,17 @@ import { motion } from "framer-motion";
 const Footer = () => {
   return (
     <div className="text-black py-10 sm:py-16 font-titleFont w-full overflow-hidden">
-      <div className="max-w-screen-xl lg:mr-8 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-0">
-        <div className="flex flex-col gap-8 items-center sm:items-start md:ml-2">
+      <div className="lg:max-w-screen-xl min-[1800px]:max-w-screen-2xl min-[1800px]:mr-10 lg:mr-8 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-0">
+        <div className="flex flex-col gap-8 min-[1800px]:mr-7 min-[1800px]:ml-0 items-center sm:items-start md:ml-2">
           <div className="flex flex-col gap-7 md:pl-6 md:pt-14 lg:pt-16">
-            <p className="lg:text-sm md:text-xs tracking-wide text-[#6b6a6a] md:px-0 px-4 md:w-[200px] lg:w-[250px] text-center rem sm:text-left">
+            <p className="lg:text-sm min-[1800px]:text-base md:text-xs tracking-wide text-[#6b6a6a] md:px-0 px-4 md:w-[200px] lg:w-[250px] min-[1800px]:w-[280px] text-center rem sm:text-left">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry.
             </p>
             <div className="flex justify-center md:justify-start items-center gap-5">
-              <img src="facebook.svg" alt="Facebook" className="h-5 w-5" />
-              <img src="instagram.svg" alt="Instagram" className="h-5 w-5" />
-              <img src="google.svg" alt="Google" className="h-5 w-5" />
+              <img src="facebook.svg" alt="Facebook" className="h-5 w-5 min-[1800px]:h-7 min-[1800px]:w-7" />
+              <img src="instagram.svg" alt="Instagram" className="h-5 w-5 min-[1800px]:h-7 min-[1800px]:w-7" />
+              <img src="google.svg" alt="Google" className="h-5 w-5 min-[1800px]:h-7 min-[1800px]:w-7" />
             </div>
           </div>
         </div>

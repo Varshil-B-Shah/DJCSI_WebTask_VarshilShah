@@ -60,17 +60,17 @@ const Hotels = () => {
       <div className="flex pop-in">
         <div className="items-start justify-start flex-1">
           <div className="flex flex-col gap-[0.5rem] md:gap-[1rem] lg:gap-[1.25rem]">
-            <h1 className="font-semibold text-lg md:text-2xl lg:text-4xl">
+            <h1 className="font-semibold text-lg md:text-2xl min-[1800px]:text-5xl lg:text-4xl">
               Our most popular Hotels
             </h1>
-            <p className="md:text-sm text-xs text-[#6b6a6a] leading-[16px] w-[240px] md:w-[400px] md:leading-[27px]">
+            <p className="md:text-sm text-xs min-[1800px]:text-base text-[#6b6a6a] leading-[16px] w-[240px] md:w-[400px] md:leading-[27px]">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry
             </p>
           </div>
         </div>
         <div className="items-end justify-end mt-10 md:pt-5 lg:pt-10">
-          <button className="bg-[#eaf7f1] hover:bg-[#24ab70] px-3 md:px-5 py-1 md:py-2 text-[#24ab70] hover:text-[#eaf7f1] rounded-3xl text-xs md:text-sm transition-all duration-300">
+          <button className="bg-[#eaf7f1] hover:bg-[#24ab70] px-3 md:px-5 py-1 md:py-2 min-[1800px]:text-base text-[#24ab70] hover:text-[#eaf7f1] rounded-3xl text-xs md:text-sm transition-all duration-300">
             View All
           </button>
         </div>

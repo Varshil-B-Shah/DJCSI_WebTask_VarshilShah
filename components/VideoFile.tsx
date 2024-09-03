@@ -29,11 +29,11 @@ const VideoFile = () => {
               className="scale-100 cursor-pointer group-hover:scale-105 duration-300 transition-all"
             />
           </div>
-          <p className="lg:flex gap-4 hidden text-xl font-semibold lg:text-base cursor-pointer text-center group lg:relative md:relative md:bottom-[10rem] md:right-[17.55rem] lg:bottom-[16.2rem] lg:right-[41.05rem]">
+          <p className="lg:flex gap-4 hidden text-xl font-semibold lg:text-base cursor-pointer text-center group lg:relative md:relative md:bottom-[10rem] md:right-[17.55rem] lg:bottom-[16.2rem] lg:right-[41.05rem] min-[1800px]:right-[65rem]">
             <span className="text-[#28ac74] md:text-sm lg:p-5 md:p-4 bg-white rounded-full group-hover:scale-125 duration-300 transition-all overflow-hidden cursor-pointer">
               <FaPlay />
             </span>
-            <span className="lg:pt-4 md:pt-3 lg:text-base md:text-[0.9rem] group-hover:scale-105 duration-300 group-hover:text-green-500 group-hover:underline group-hover:underline-offset-1">
+            <span className="lg:pt-4 md:pt-3 min-[1800px]:text-lg min-[1800px]:pt-[0.8rem] lg:text-base md:text-[0.9rem] group-hover:scale-105 duration-300 group-hover:text-green-500 group-hover:underline group-hover:underline-offset-1">
               Watch Video
             </span>
           </p>
